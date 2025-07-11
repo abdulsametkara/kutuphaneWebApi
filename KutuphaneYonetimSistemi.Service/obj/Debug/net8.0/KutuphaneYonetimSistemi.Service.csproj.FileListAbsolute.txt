@@ -1,0 +1,15 @@
+C:\Users\samet\Desktop\test-project\projeler\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.Service\bin\Debug\net8.0\KutuphaneYonetimSistemi.Service.deps.json
+C:\Users\samet\Desktop\test-project\projeler\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.Service\bin\Debug\net8.0\KutuphaneYonetimSistemi.Service.dll
+C:\Users\samet\Desktop\test-project\projeler\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.Service\bin\Debug\net8.0\KutuphaneYonetimSistemi.Service.pdb
+C:\Users\samet\Desktop\test-project\projeler\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.Service\bin\Debug\net8.0\KutuphaneYonetimSistemi.DataAccess.dll
+C:\Users\samet\Desktop\test-project\projeler\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.Service\bin\Debug\net8.0\KutuphaneYonetimSistemi.DataAccess.pdb
+C:\Users\samet\Desktop\test-project\projeler\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.Service\obj\Debug\net8.0\KutuphaneYonetimSistemi.Service.csproj.AssemblyReference.cache
+C:\Users\samet\Desktop\test-project\projeler\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.Service\obj\Debug\net8.0\KutuphaneYonetimSistemi.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samet\Desktop\test-project\projeler\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.Service\obj\Debug\net8.0\KutuphaneYonetimSistemi.Service.AssemblyInfoInputs.cache
+C:\Users\samet\Desktop\test-project\projeler\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.Service\obj\Debug\net8.0\KutuphaneYonetimSistemi.Service.AssemblyInfo.cs
+C:\Users\samet\Desktop\test-project\projeler\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.Service\obj\Debug\net8.0\KutuphaneYonetimSistemi.Service.csproj.CoreCompileInputs.cache
+C:\Users\samet\Desktop\test-project\projeler\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.Service\obj\Debug\net8.0\Kutuphan.980B94EB.Up2Date
+C:\Users\samet\Desktop\test-project\projeler\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.Service\obj\Debug\net8.0\KutuphaneYonetimSistemi.Service.dll
+C:\Users\samet\Desktop\test-project\projeler\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.Service\obj\Debug\net8.0\refint\KutuphaneYonetimSistemi.Service.dll
+C:\Users\samet\Desktop\test-project\projeler\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.Service\obj\Debug\net8.0\KutuphaneYonetimSistemi.Service.pdb
+C:\Users\samet\Desktop\test-project\projeler\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.Service\obj\Debug\net8.0\ref\KutuphaneYonetimSistemi.Service.dll

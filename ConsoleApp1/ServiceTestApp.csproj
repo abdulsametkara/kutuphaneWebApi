@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KutuphaneYonetimSistemi.DataAccess\KutuphaneYonetimSistemi.DataAccess.csproj" />
+    <ProjectReference Include="..\KutuphaneYonetimSistemi.Service\KutuphaneYonetimSistemi.Service.csproj" />
+    <ProjectReference Include="..\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.API.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,1197 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "KutuphaneYonetimSistemi.API",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/ControllerCezaBilgi": {
+      "get": {
+        "tags": [
+          "ControllerCezaBilgi"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "ControllerCezaBilgi"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOCezaBilgi"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOCezaBilgi"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOCezaBilgi"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ControllerCezaBilgi/{id}": {
+      "get": {
+        "tags": [
+          "ControllerCezaBilgi"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "ControllerCezaBilgi"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOCezaBilgi"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOCezaBilgi"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOCezaBilgi"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "ControllerCezaBilgi"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ControllerCezaBilgi/uye/{uyeId}": {
+      "get": {
+        "tags": [
+          "ControllerCezaBilgi"
+        ],
+        "parameters": [
+          {
+            "name": "uyeId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ControllerCezaBilgi/ode/{cezaId}": {
+      "post": {
+        "tags": [
+          "ControllerCezaBilgi"
+        ],
+        "parameters": [
+          {
+            "name": "cezaId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ControllerCezaBilgi/odenmemis": {
+      "get": {
+        "tags": [
+          "ControllerCezaBilgi"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ControllerKategori": {
+      "get": {
+        "tags": [
+          "ControllerKategori"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "ControllerKategori"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOKategori"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOKategori"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOKategori"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ControllerKategori/{id}": {
+      "get": {
+        "tags": [
+          "ControllerKategori"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "ControllerKategori"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOKategori"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOKategori"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOKategori"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "ControllerKategori"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ControllerKategori/{id}/kitaplar": {
+      "get": {
+        "tags": [
+          "ControllerKategori"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ControllerKategori/ara/{aramaMetni}": {
+      "get": {
+        "tags": [
+          "ControllerKategori"
+        ],
+        "parameters": [
+          {
+            "name": "aramaMetni",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ControllerKitap": {
+      "get": {
+        "tags": [
+          "ControllerKitap"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "ControllerKitap"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOKitap"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOKitap"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOKitap"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ControllerKitap/{id}": {
+      "get": {
+        "tags": [
+          "ControllerKitap"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "ControllerKitap"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOKitap"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOKitap"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOKitap"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "ControllerKitap"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ControllerKitap/ara/{aramaMetni}": {
+      "get": {
+        "tags": [
+          "ControllerKitap"
+        ],
+        "parameters": [
+          {
+            "name": "aramaMetni",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ControllerOduncIslem": {
+      "get": {
+        "tags": [
+          "ControllerOduncIslem"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ControllerOduncIslem/odunc-ver": {
+      "post": {
+        "tags": [
+          "ControllerOduncIslem"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOOduncIslem"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOOduncIslem"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOOduncIslem"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ControllerOduncIslem/teslim-al/{islemId}": {
+      "put": {
+        "tags": [
+          "ControllerOduncIslem"
+        ],
+        "parameters": [
+          {
+            "name": "islemId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ControllerOduncIslem/geciken-kitaplar": {
+      "get": {
+        "tags": [
+          "ControllerOduncIslem"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ControllerOduncIslem/tum-odunc-islemler": {
+      "get": {
+        "tags": [
+          "ControllerOduncIslem"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ControllerOduncIslem/{id}": {
+      "get": {
+        "tags": [
+          "ControllerOduncIslem"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ControllerOduncIslem/uye/{uyeId}/aktif-kitaplar": {
+      "get": {
+        "tags": [
+          "ControllerOduncIslem"
+        ],
+        "parameters": [
+          {
+            "name": "uyeId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ControllerOduncIslem/uye/{uyeId}/gecmis": {
+      "get": {
+        "tags": [
+          "ControllerOduncIslem"
+        ],
+        "parameters": [
+          {
+            "name": "uyeId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/controller": {
+      "get": {
+        "tags": [
+          "ControllerPersonel"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "ControllerPersonel"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOPersonel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOPersonel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOPersonel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/controller/{id}": {
+      "get": {
+        "tags": [
+          "ControllerPersonel"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "ControllerPersonel"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOPersonel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOPersonel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOPersonel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "ControllerPersonel"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/controller/ara/{aramaMetni}": {
+      "get": {
+        "tags": [
+          "ControllerPersonel"
+        ],
+        "parameters": [
+          {
+            "name": "aramaMetni",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ControllerUye": {
+      "get": {
+        "tags": [
+          "ControllerUye"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "ControllerUye"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOUye"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOUye"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOUye"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ControllerUye/{id}": {
+      "get": {
+        "tags": [
+          "ControllerUye"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "ControllerUye"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOUye"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOUye"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOUye"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "ControllerUye"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "DTOCezaBilgi": {
+        "type": "object",
+        "properties": {
+          "createdTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "cezaID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "uyeID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "islemID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "gecikmeSuresi": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "cezaTutari": {
+            "type": "number",
+            "format": "double"
+          },
+          "odemeDurumu": {
+            "type": "boolean"
+          },
+          "odemeTarihi": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "aciklama": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DTOKategori": {
+        "type": "object",
+        "properties": {
+          "createdTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "kategoriID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "kategoriAdi": {
+            "type": "string",
+            "nullable": true
+          },
+          "aciklama": {
+            "type": "string",
+            "nullable": true
+          },
+          "kitapSayisi": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DTOKitap": {
+        "type": "object",
+        "properties": {
+          "createdTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "kitapID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "kitapAdi": {
+            "type": "string",
+            "nullable": true
+          },
+          "yazarAdi": {
+            "type": "string",
+            "nullable": true
+          },
+          "yayinEvi": {
+            "type": "string",
+            "nullable": true
+          },
+          "isbn": {
+            "type": "string",
+            "nullable": true
+          },
+          "sayfaSayisi": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "basimYili": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "kategoriID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "kategoriAdi": {
+            "type": "string",
+            "nullable": true
+          },
+          "stokAdedi": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "rafNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "durum": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DTOOduncIslem": {
+        "type": "object",
+        "properties": {
+          "createdTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "islemID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "uyeID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "kitapID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "oduncAlmaTarihi": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "teslimEdilmesiGerekenTarih": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "gercekTeslimTarihi": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "islemDurumu": {
+            "type": "string",
+            "nullable": true
+          },
+          "personelID": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DTOPersonel": {
+        "type": "object",
+        "properties": {
+          "createdTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "personelID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tcKimlikNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "ad": {
+            "type": "string",
+            "nullable": true
+          },
+          "soyad": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "kullaniciAdi": {
+            "type": "string",
+            "nullable": true
+          },
+          "yetki": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DTOUye": {
+        "type": "object",
+        "properties": {
+          "uyeID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tcKimlik": {
+            "type": "string",
+            "nullable": true
+          },
+          "ad": {
+            "type": "string",
+            "nullable": true
+          },
+          "soyad": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "kullaniciAdi": {
+            "type": "string",
+            "nullable": true
+          },
+          "dogumTarihi": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "telefon": {
+            "type": "string",
+            "nullable": true
+          },
+          "cinsiyet": {
+            "type": "string",
+            "nullable": true
+          },
+          "uyelikTarihi": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

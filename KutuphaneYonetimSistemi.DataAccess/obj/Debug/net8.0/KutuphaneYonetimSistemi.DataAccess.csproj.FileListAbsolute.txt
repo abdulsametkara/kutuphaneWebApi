@@ -1,0 +1,12 @@
+C:\Users\samet\Desktop\test-project\projeler\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.DataAccess\bin\Debug\net8.0\KutuphaneYonetimSistemi.DataAccess.deps.json
+C:\Users\samet\Desktop\test-project\projeler\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.DataAccess\bin\Debug\net8.0\KutuphaneYonetimSistemi.DataAccess.dll
+C:\Users\samet\Desktop\test-project\projeler\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.DataAccess\bin\Debug\net8.0\KutuphaneYonetimSistemi.DataAccess.pdb
+C:\Users\samet\Desktop\test-project\projeler\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.DataAccess\obj\Debug\net8.0\KutuphaneYonetimSistemi.DataAccess.csproj.AssemblyReference.cache
+C:\Users\samet\Desktop\test-project\projeler\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.DataAccess\obj\Debug\net8.0\KutuphaneYonetimSistemi.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samet\Desktop\test-project\projeler\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.DataAccess\obj\Debug\net8.0\KutuphaneYonetimSistemi.DataAccess.AssemblyInfoInputs.cache
+C:\Users\samet\Desktop\test-project\projeler\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.DataAccess\obj\Debug\net8.0\KutuphaneYonetimSistemi.DataAccess.AssemblyInfo.cs
+C:\Users\samet\Desktop\test-project\projeler\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.DataAccess\obj\Debug\net8.0\KutuphaneYonetimSistemi.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\samet\Desktop\test-project\projeler\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.DataAccess\obj\Debug\net8.0\KutuphaneYonetimSistemi.DataAccess.dll
+C:\Users\samet\Desktop\test-project\projeler\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.DataAccess\obj\Debug\net8.0\refint\KutuphaneYonetimSistemi.DataAccess.dll
+C:\Users\samet\Desktop\test-project\projeler\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.DataAccess\obj\Debug\net8.0\KutuphaneYonetimSistemi.DataAccess.pdb
+C:\Users\samet\Desktop\test-project\projeler\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.DataAccess\obj\Debug\net8.0\ref\KutuphaneYonetimSistemi.DataAccess.dll

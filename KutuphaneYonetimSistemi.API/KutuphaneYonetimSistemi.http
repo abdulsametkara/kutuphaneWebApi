@@ -1,0 +1,6 @@
+@KutuphaneYonetimSistemi_HostAddress = http://localhost:5077
+
+GET {{KutuphaneYonetimSistemi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
