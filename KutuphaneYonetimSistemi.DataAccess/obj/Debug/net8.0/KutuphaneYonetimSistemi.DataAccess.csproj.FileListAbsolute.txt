@@ -10,3 +10,4 @@ C:\Users\samet\Desktop\test-project\projeler\KutuphaneYonetimSistemi\KutuphaneYo
 C:\Users\samet\Desktop\test-project\projeler\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.DataAccess\obj\Debug\net8.0\refint\KutuphaneYonetimSistemi.DataAccess.dll
 C:\Users\samet\Desktop\test-project\projeler\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.DataAccess\obj\Debug\net8.0\KutuphaneYonetimSistemi.DataAccess.pdb
 C:\Users\samet\Desktop\test-project\projeler\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.DataAccess\obj\Debug\net8.0\ref\KutuphaneYonetimSistemi.DataAccess.dll
+C:\Users\samet\Desktop\test-project\projeler\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.DataAccess\obj\Debug\net8.0\KutuphaneYonetimSistemi.DataAccess.sourcelink.json

@@ -1,0 +1,645 @@
+[
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.AuthController",
+    "Method": "CreateUser",
+    "RelativePath": "api/Auth/createUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createUserDto",
+        "Type": "KutuphaneYonetimSistemi.DataAccess.DTOs.DTOAuthentication\u002BCreateUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "KutuphaneYonetimSistemi.DataAccess.DTOs.DTOAuthentication\u002BLogin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerPersonel",
+    "Method": "GetAll",
+    "RelativePath": "api/controller",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerPersonel",
+    "Method": "Create",
+    "RelativePath": "api/controller",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dTO",
+        "Type": "KutuphaneYonetimSistemi.DataAccess.DTOs.DTOPersonel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerPersonel",
+    "Method": "GetById",
+    "RelativePath": "api/controller/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerPersonel",
+    "Method": "Update",
+    "RelativePath": "api/controller/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dTO",
+        "Type": "KutuphaneYonetimSistemi.DataAccess.DTOs.DTOPersonel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerPersonel",
+    "Method": "Delete",
+    "RelativePath": "api/controller/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerPersonel",
+    "Method": "Search",
+    "RelativePath": "api/controller/ara/{aramaMetni}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "aramaMetni",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerCezaBilgi",
+    "Method": "GetAll",
+    "RelativePath": "api/ControllerCezaBilgi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerCezaBilgi",
+    "Method": "Create",
+    "RelativePath": "api/ControllerCezaBilgi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dTO",
+        "Type": "KutuphaneYonetimSistemi.DataAccess.DTOs.DTOCezaBilgi",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerCezaBilgi",
+    "Method": "GetById",
+    "RelativePath": "api/ControllerCezaBilgi/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerCezaBilgi",
+    "Method": "Update",
+    "RelativePath": "api/ControllerCezaBilgi/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dTO",
+        "Type": "KutuphaneYonetimSistemi.DataAccess.DTOs.DTOCezaBilgi",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerCezaBilgi",
+    "Method": "Delete",
+    "RelativePath": "api/ControllerCezaBilgi/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerCezaBilgi",
+    "Method": "OdemeYap",
+    "RelativePath": "api/ControllerCezaBilgi/ode/{cezaId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cezaId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerCezaBilgi",
+    "Method": "OdenmemisCezalar",
+    "RelativePath": "api/ControllerCezaBilgi/odenmemis",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerCezaBilgi",
+    "Method": "GetUyeCezalari",
+    "RelativePath": "api/ControllerCezaBilgi/uye/{uyeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "uyeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerKategori",
+    "Method": "GetAll",
+    "RelativePath": "api/ControllerKategori",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerKategori",
+    "Method": "Create",
+    "RelativePath": "api/ControllerKategori",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dTO",
+        "Type": "KutuphaneYonetimSistemi.DataAccess.DTOs.DTOKategori",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerKategori",
+    "Method": "GetById",
+    "RelativePath": "api/ControllerKategori/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerKategori",
+    "Method": "Update",
+    "RelativePath": "api/ControllerKategori/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dTO",
+        "Type": "KutuphaneYonetimSistemi.DataAccess.DTOs.DTOKategori",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerKategori",
+    "Method": "Delete",
+    "RelativePath": "api/ControllerKategori/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerKategori",
+    "Method": "GetirKategoriyeGoreKitaplar",
+    "RelativePath": "api/ControllerKategori/{id}/kitaplar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerKategori",
+    "Method": "Search",
+    "RelativePath": "api/ControllerKategori/ara/{aramaMetni}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "aramaMetni",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerKitap",
+    "Method": "GetAll",
+    "RelativePath": "api/ControllerKitap",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerKitap",
+    "Method": "Create",
+    "RelativePath": "api/ControllerKitap",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dTO",
+        "Type": "KutuphaneYonetimSistemi.DataAccess.DTOs.DTOKitap",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerKitap",
+    "Method": "GetById",
+    "RelativePath": "api/ControllerKitap/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerKitap",
+    "Method": "Update",
+    "RelativePath": "api/ControllerKitap/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dTO",
+        "Type": "KutuphaneYonetimSistemi.DataAccess.DTOs.DTOKitap",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerKitap",
+    "Method": "Delete",
+    "RelativePath": "api/ControllerKitap/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerKitap",
+    "Method": "Search",
+    "RelativePath": "api/ControllerKitap/ara/{aramaMetni}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "aramaMetni",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerOduncIslem",
+    "Method": "GetAll",
+    "RelativePath": "api/ControllerOduncIslem",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerOduncIslem",
+    "Method": "GetirByIdOduncIslem",
+    "RelativePath": "api/ControllerOduncIslem/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerOduncIslem",
+    "Method": "GetirGecikenKitaplar",
+    "RelativePath": "api/ControllerOduncIslem/geciken-kitaplar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerOduncIslem",
+    "Method": "OduncVer",
+    "RelativePath": "api/ControllerOduncIslem/odunc-ver",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dTO",
+        "Type": "KutuphaneYonetimSistemi.DataAccess.DTOs.DTOOduncIslem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerOduncIslem",
+    "Method": "TeslimAl",
+    "RelativePath": "api/ControllerOduncIslem/teslim-al/{islemId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "islemId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerOduncIslem",
+    "Method": "GetirTumOduncIslemler",
+    "RelativePath": "api/ControllerOduncIslem/tum-odunc-islemler",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerOduncIslem",
+    "Method": "GetirUyeninOduncKitaplari",
+    "RelativePath": "api/ControllerOduncIslem/uye/{uyeId}/aktif-kitaplar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "uyeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerOduncIslem",
+    "Method": "GetirUyeninOduncGecmisi",
+    "RelativePath": "api/ControllerOduncIslem/uye/{uyeId}/gecmis",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "uyeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerUye",
+    "Method": "GetAll",
+    "RelativePath": "api/ControllerUye",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerUye",
+    "Method": "Create",
+    "RelativePath": "api/ControllerUye",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dTO",
+        "Type": "KutuphaneYonetimSistemi.DataAccess.DTOs.DTOUye",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerUye",
+    "Method": "GetById",
+    "RelativePath": "api/ControllerUye/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerUye",
+    "Method": "Update",
+    "RelativePath": "api/ControllerUye/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dTO",
+        "Type": "KutuphaneYonetimSistemi.DataAccess.DTOs.DTOUye",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneYonetimSistemi.API.Controllers.ControllerUye",
+    "Method": "Delete",
+    "RelativePath": "api/ControllerUye/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

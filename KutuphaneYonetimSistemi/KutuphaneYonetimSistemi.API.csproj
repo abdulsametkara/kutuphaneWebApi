@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.7" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="8.12.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.12.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KutuphaneYonetimSistemi.Service\KutuphaneYonetimSistemi.Service.csproj" />
+  </ItemGroup>
+
+</Project>

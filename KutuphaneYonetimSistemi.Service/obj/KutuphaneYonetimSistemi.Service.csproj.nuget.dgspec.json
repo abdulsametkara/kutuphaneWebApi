@@ -70,6 +70,10 @@
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.9.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.12.1, )"
             }
           },
           "imports": [
@@ -150,6 +154,10 @@
             "FluentValidation": {
               "target": "Package",
               "version": "[8.6.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.12.1, )"
             }
           },
           "imports": [

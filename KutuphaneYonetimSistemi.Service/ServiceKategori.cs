@@ -21,9 +21,6 @@ namespace KutuphaneYonetimSistemi.Service
         public DTOKategori GetirByIdKategori(int kategoriId)
         {
             EKategori eKategori=new EKategori();
-            int a = 0;
-            int b = 3;
-            var c = b / a;
             DTOKategori dTO = new DTOKategori { KategoriID = kategoriId };
             return eKategori.GetirByIdKategori(dTO);
         }

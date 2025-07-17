@@ -13,3 +13,4 @@ C:\Users\samet\Desktop\test-project\projeler\KutuphaneYonetimSistemi\KutuphaneYo
 C:\Users\samet\Desktop\test-project\projeler\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.Service\obj\Debug\net8.0\refint\KutuphaneYonetimSistemi.Service.dll
 C:\Users\samet\Desktop\test-project\projeler\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.Service\obj\Debug\net8.0\KutuphaneYonetimSistemi.Service.pdb
 C:\Users\samet\Desktop\test-project\projeler\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.Service\obj\Debug\net8.0\ref\KutuphaneYonetimSistemi.Service.dll
+C:\Users\samet\Desktop\test-project\projeler\KutuphaneYonetimSistemi\KutuphaneYonetimSistemi.Service\obj\Debug\net8.0\KutuphaneYonetimSistemi.Service.sourcelink.json
