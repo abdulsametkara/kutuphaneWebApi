@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\samet\\Desktop\\test-project\\projeler\\KutuphaneYonetimSistemi\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{76D17A22-E3BD-4DC1-919E-548DDCC043A6}|KutuphaneYonetimSistemi.Service\\KutuphaneYonetimSistemi.Service.csproj|c:\\users\\samet\\desktop\\test-project\\projeler\\kutuphaneyonetimsistemi\\kutuphaneyonetimsistemi.service\\servicekitap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76D17A22-E3BD-4DC1-919E-548DDCC043A6}|KutuphaneYonetimSistemi.Service\\KutuphaneYonetimSistemi.Service.csproj|solutionrelative:kutuphaneyonetimsistemi.service\\servicekitap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECB77C06-1458-4AB7-8D36-1DEBAA4CBA2C}|KutuphaneYonetimSistemi.DataAccess\\KutuphaneYonetimSistemi.DataAccess.csproj|c:\\users\\samet\\desktop\\test-project\\projeler\\kutuphaneyonetimsistemi\\kutuphaneyonetimsistemi.dataaccess\\entities\\ekategori.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECB77C06-1458-4AB7-8D36-1DEBAA4CBA2C}|KutuphaneYonetimSistemi.DataAccess\\KutuphaneYonetimSistemi.DataAccess.csproj|solutionrelative:kutuphaneyonetimsistemi.dataaccess\\entities\\ekategori.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECB77C06-1458-4AB7-8D36-1DEBAA4CBA2C}|KutuphaneYonetimSistemi.DataAccess\\KutuphaneYonetimSistemi.DataAccess.csproj|c:\\users\\samet\\desktop\\test-project\\projeler\\kutuphaneyonetimsistemi\\kutuphaneyonetimsistemi.dataaccess\\entities\\eauthentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECB77C06-1458-4AB7-8D36-1DEBAA4CBA2C}|KutuphaneYonetimSistemi.DataAccess\\KutuphaneYonetimSistemi.DataAccess.csproj|solutionrelative:kutuphaneyonetimsistemi.dataaccess\\entities\\eauthentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,6 +39,43 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceKitap.cs",
+              "DocumentMoniker": "C:\\Users\\samet\\Desktop\\test-project\\projeler\\KutuphaneYonetimSistemi\\KutuphaneYonetimSistemi.Service\\ServiceKitap.cs",
+              "RelativeDocumentMoniker": "KutuphaneYonetimSistemi.Service\\ServiceKitap.cs",
+              "ToolTip": "C:\\Users\\samet\\Desktop\\test-project\\projeler\\KutuphaneYonetimSistemi\\KutuphaneYonetimSistemi.Service\\ServiceKitap.cs",
+              "RelativeToolTip": "KutuphaneYonetimSistemi.Service\\ServiceKitap.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T06:25:36.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EKategori.cs",
+              "DocumentMoniker": "C:\\Users\\samet\\Desktop\\test-project\\projeler\\KutuphaneYonetimSistemi\\KutuphaneYonetimSistemi.DataAccess\\Entities\\EKategori.cs",
+              "RelativeDocumentMoniker": "KutuphaneYonetimSistemi.DataAccess\\Entities\\EKategori.cs",
+              "ToolTip": "C:\\Users\\samet\\Desktop\\test-project\\projeler\\KutuphaneYonetimSistemi\\KutuphaneYonetimSistemi.DataAccess\\Entities\\EKategori.cs",
+              "RelativeToolTip": "KutuphaneYonetimSistemi.DataAccess\\Entities\\EKategori.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T09:52:15.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EAuthentication.cs",
+              "DocumentMoniker": "C:\\Users\\samet\\Desktop\\test-project\\projeler\\KutuphaneYonetimSistemi\\KutuphaneYonetimSistemi.DataAccess\\Entities\\EAuthentication.cs",
+              "RelativeDocumentMoniker": "KutuphaneYonetimSistemi.DataAccess\\Entities\\EAuthentication.cs",
+              "ToolTip": "C:\\Users\\samet\\Desktop\\test-project\\projeler\\KutuphaneYonetimSistemi\\KutuphaneYonetimSistemi.DataAccess\\Entities\\EAuthentication.cs",
+              "RelativeToolTip": "KutuphaneYonetimSistemi.DataAccess\\Entities\\EAuthentication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T09:52:14.227Z"
             }
           ]
         }
